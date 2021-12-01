@@ -104,7 +104,7 @@ console.log(ageJanmejay >= 6);
 
 const isFullAge = ageJanmejay >= 18;
 */
-
+/*
 //Operater Precedence
 // JavaScript has a well-defined order of operator precedence.
 const now = 2021;
@@ -119,4 +119,24 @@ console.log(x, y);
 
 const averageAge = (ageHaresh + ageJanmejay) / 2;
 console.log(ageHaresh, ageJanmejay, averageAge);
+*/
 
+//Strings and Template Literals
+const firstName = "Kaushik";
+const job = 'teacher';
+const birthyear = 2000;m    
+const year = 2021;
+
+const kaushik = "I'm " + firstName + ", a " + (year - birthyear) + " years old " + job + "!";
+console.log(kaushik);
+
+const newKaushik = `I'm ${firstName}, a ${year-birthyear} year old ${job}!`;
+console.log(newKaushik)
+console.log(`Just a regular string...`);
+console.log('String with \n\
+multipale\n\
+lines');
+
+console.log(`String with
+multipale
+lines`);
